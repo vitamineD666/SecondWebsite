@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Would You Be My Valentine, Salwa?</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="background-image">
+    <div class="container">
+      <h1>Would You Be My Valentine, Salwa?</h1>
+      <div class="choices">
+        <button id="yes-btn">Yes</button>
+        <button id="no-btn">No</button>
+      </div>
+      <p id="response"></p>
+    </div>
+  </div>
+
+  <script>
+    // JavaScript remains the same
+    // Get reference to buttons and response element
+    const yesButton = document.getElementById('yes-btn');
+    const noButton = document.getElementById('no-btn');
+    const responseElement = document.getElementById('response');
+
+    // Add event listeners to buttons
+    yesButton.addEventListener('click', () => {
+      responseElement.textContent = "I can't wait, baby!";
+    });
+
+    noButton.addEventListener('click', () => {
+      responseElement.textContent = "You meant yes, baby!";
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,55 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background-color: #ffccd6; /* Light pink */
+  background-image: url('flowers_and_bunnies.jpg'); /* Background image */
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.background-image {
+  background-color: rgba(220, 37, 113, 0.9); /* White background with opacity */
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.container {
+  text-align: center;
+}
+
+h1 {
+  color: #c70039; /* Romantic red */
+}
+
+.choices {
+  margin-top: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  margin: 0 10px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #c70039; /* Romantic red */
+  border: none;
+  border-radius: 5px;
+  color: white;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #ff6666; /* Dark red */
+}
+
+#response {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 20px;
+  color: #c70039; /* Romantic red */
+}
